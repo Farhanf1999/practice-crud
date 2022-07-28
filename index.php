@@ -131,7 +131,7 @@ $row = mysqli_fetch_assoc($sesiExe);
         </div>
 
 
-        <center><a href="cetak.php" class="btn btn-info" target="_blank">Cetak</a></center><br>
+        <center><input type="submit" name="submit" value="Daftar" class="btn btn-info"></center>
         <center><input type="" name="vstatus" value="<?= $row['tb_status']; ?>" class="btn btn-secondary"></center><br>
 
         <center>
