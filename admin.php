@@ -89,7 +89,7 @@ $admin = $_SESSION['tb_iduser'];
                 <td><?php echo $data['tb_email']; ?> </td>
                 <td><?php echo $data['tb_nohp']; ?> </td>
                 <td><a href="edit2.php?tb_iduser=<?= $data['tb_iduser']; ?>">Edit</a>
-                    | <a href="hapus2.php?id= <?php echo $data['tb_iduser']; ?>"> Hapus</a>
+                    | <a href="hapus2.php?tb_iduser=<?php echo $data['tb_iduser']; ?>"> Hapus</a>
                 <td><?php echo $data['tb_status']; ?> </td>
 
 
